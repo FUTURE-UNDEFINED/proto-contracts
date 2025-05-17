@@ -1,5 +1,5 @@
 syntax="proto3";
-package v1.telegram_stickers.telegram_stickers;
+package v1.telegram_stickers;
 
 service StickerConverterService {
     rpc GetSticker(GetStickerRequest) returns (stream StickerFileChunk);
