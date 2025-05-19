@@ -20,7 +20,9 @@ enum OutputFormat {
 
 message GetStickerRequest {
     string sticker_file_id = 1;
-    OutputFormat desired_format = 2;
+    bool is_animated = 2;
+    bool is_video = 3;
+    OutputFormat desired_format = 4;
 }
 
 message StickerFileMetadata {
