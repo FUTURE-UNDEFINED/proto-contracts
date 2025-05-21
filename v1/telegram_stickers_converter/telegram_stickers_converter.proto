@@ -16,6 +16,10 @@ enum OutputFormat {
     OUTPUT_FORMAT_SVG = 6;
     OUTPUT_FORMAT_TGS_RAW = 7;
     OUTPUT_FORMAT_PNG_SEQUENCE = 8;
+    OUTPUT_FORMAT_JPG = 9;
+    OUTPUT_FORMAT_MP4 = 10;
+    OUTPUT_FORMAT_MPEG = 11;
+    OUTPUT_FORMAT_MOV = 12;
 }
 
 message GetStickerRequest {
